@@ -1,7 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
-import scipy as sp #Or just import the signal module from scipy: from scipy import signal. And proceed with signal.square() e.g.
+import scipy as sp
 from Signals import pulse
+from Signals import periodic_pulse
 
 t = np.linspace(-5, 5, 10000)
 
@@ -27,7 +28,7 @@ plt.show()
 t2 = np.linspace(-10, 10, 10000)
 
 plt.figure(3)
-periodic_pulse = sp.signal.square(t2, 0.5) #square(t, duty=0.5). The square wave has a period 2*pi, has value +1 from 0 to 2*pi*duty and -1 from 2*pi*duty to 2*pi. duty must be in the interval [0,1].
+periodic_pulse = periodic_pulse(t2, 0.5)
 plt.plot(t2, periodic_pulse)
 plt.title("Periodic pulse")
 plt.xlabel("Time (seconds)")
