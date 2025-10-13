@@ -19,7 +19,7 @@ def test_sinewave():
     t, y = sn.generate_sine_wave(5, 0, 1)
     assert np.allclose(y, 0)
     
-    print("Hello bastard")
+    print("Hello the test worked!")
     return
 
 test_sinewave()
