@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "5413646-sands-python_project"
+version = "0.1.0"
+description = "Project of creating, plotting and testing signals"
+authors = [
+    {name = "Thomas de Leeuw", email = "T.J.S.deleeuw@student.tudelft.nl"}
+]
+dependencies = ["numpy", "scipy", "matplotlib.pyplot"]
