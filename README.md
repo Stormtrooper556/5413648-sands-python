@@ -1,6 +1,6 @@
 # Creating and manipulating signals project
 
-This project is about creating, manipulating and plotting signals. In the repository you will find a file that contains all the functions of the signals. There are also files where the signals have been plotted and manipulated.
+This project is about creating, manipulating, plotting and testing signals. In the repository you will find a file that contains all the functions of the signals. There are also files where the signals have been tested and plotted/manipulated.
 
 ## How to run
 
