@@ -9,3 +9,6 @@ To run the project, you need to have Python installed. In the repository there a
 ```bash
 python <filename>.py
 ```
+
+Screenshot of the testing output:
+![alt text](https://github.com/Stormtrooper556/5413648-sands-python/blob/main/Testing_screenshot.png?raw=true)
